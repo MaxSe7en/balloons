@@ -87,7 +87,7 @@ body {
   }
 }
 
-@media (min-width: 240px) and (max-width: 760px) {
+@media (min-width: 140px) and (max-width: 760px) {
   .balloon {
     height: 125px;
     width: 65px;
