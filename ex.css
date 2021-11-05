@@ -26,6 +26,7 @@ body {
   transition: ease-in;
   backdrop-filter: blur(0.5rem);
   box-shadow: -3px -3px 30px 5px #555554;
+  border-radius: 20px;
 }
 
 .image-container {
