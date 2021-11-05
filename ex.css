@@ -8,16 +8,24 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
+  background-image: linear-gradient(
+    to right bottom,
+    #f30096e7,
+    #f81b9c,
+    #f6328c,
+    #ff0988,
+    #d608ff,
+    #b50cdf
+  );
 }
 
 .carousel {
-  /* display: flex;
-    justify-content: center;
-    align-items: center; */
   overflow: hidden;
   width: 320px;
   height: 500px;
   transition: ease-in;
+  backdrop-filter: blur(0.5rem);
+  box-shadow: -3px -3px 30px 5px #555554;
 }
 
 .image-container {
