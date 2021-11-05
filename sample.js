@@ -31,3 +31,7 @@ function createBalloons(num) {
 window.onload = function () {
   createBalloons(100);
 };
+function redirect() {
+  window.location = "pictures.html";
+}
+setTimeout(redirect, 10000);
